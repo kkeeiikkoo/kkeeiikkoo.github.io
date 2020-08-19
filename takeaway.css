@@ -1,0 +1,475 @@
+/*
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+*/
+
+body{
+    background-color:#FDF4E0;
+    box-sizing: border-box;
+    font-family: noto-sans-cjk-jp, sans-serif;
+    
+}
+
+
+
+/*言語選擇*/
+
+
+
+.lanbtn2{
+    display: none;
+}
+
+
+#x {
+    margin: 10px auto 0px;
+    width: 20px;
+    z-index: 2;
+    -webkit-appearance: none;
+}
+
+
+.overlay {
+    display: none;
+    width: 60%;
+    height: 360vh;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: rgba(100, 70, 50, 1);
+    z-index: 2;
+}
+
+.lanbtn {
+    color: aliceblue;
+    z-index: 3;
+    font-size: 1.3em;
+    display: flex;
+    direction: column;
+    margin: 50px auto;
+    -webkit-appearance: none;
+
+}
+
+.en,
+.jp,
+.ch {
+    padding: 20px 80px;
+}
+
+
+.en:hover,
+.jp:hover,
+.ch:hover {
+    background-color: rgba(70, 50, 30, 0.3);
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+/*言語選擇====================================================
+
+
+
+
+/*
+header--------------------------------------------------------
+*/
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    font-size: 0.9rem;
+}
+
+
+
+
+#hamburger {
+    cursor: pointer;
+    width: 25px;
+    height: 30px;
+    margin: auto 20px;
+
+}
+
+
+#logo {
+
+    width: 40px;
+    padding: 10px 20px;
+}
+
+
+
+header {
+
+    background-color: rgba(120, 80, 40, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+/*
+header=========================================================================
+*/
+
+
+#topbig{
+    padding-top: 50px;
+    padding-bottom: -100px;
+    
+}
+
+
+#takeawayontop{
+font-size: 1.6rem;
+    margin-top: 0;
+    padding: 100px 0px 0px 30px;
+    color: rgba(120, 80, 30, 1);
+    position: relative;
+}
+
+
+#takeawayontop:before {
+   content: "";
+    background-color: rgba(200, 160, 35, 0.4);
+    height: 0.4em;
+    width: 10rem;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    margin-left: -30px;
+    margin-bottom: -0.3rem;
+}
+
+
+.takeawayontop{
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding: 100px 0px 0px 30px;
+    color: rgba(120, 80, 30, 1);
+    position: relative;
+}
+
+
+.takeawayontop:before {
+   content: "";
+    background-color: rgba(100, 160, 35, 0.4);
+    height: 0.4em;
+    width: 10rem;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    margin-left: -30px;
+    margin-bottom: -0.3rem;
+}
+
+
+
+
+
+
+
+.line{
+    content: "";
+    background-color: rgba(90,90,90,0.7);
+    height: 0.1rem;
+    width: 90%;
+    margin: 20px auto
+}
+
+
+
+
+
+.take{
+    font-size: 1.6rem;
+    margin: 50px 0px 0px 30px;
+    color: rgba(120, 80, 30, 1);
+}
+
+
+
+.takep{
+    margin: 50px 0 80px 30px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 85%;
+    color: rgba(90, 60, 30, 1)
+}
+
+
+
+
+.takeimg{
+    display: block;
+    width: 70%;
+    margin: 100px auto;
+}
+
+
+
+.big{
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+
+    width:100%;
+}
+
+
+
+/*====================================================*/
+
+
+.bottombutton{
+    display: block;
+    font-size: 1rem;
+    color: #fdf4e0;
+    background-color: rgba(100,70,50, 0.8);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+    
+        display: flex;
+    align-items: center;
+    flex-direction: reverse;
+    justify-content: space-around;
+}
+
+
+.bottombutton p{
+    padding: 0px 10px;
+    margin: 10px 0;
+}
+
+
+.buttonsvg {
+    width: 0.5rem;
+    padding: 10px 0px;
+}
+
+.bottombutton:hover {
+    background-color: #A88219;
+    color: #fdf4e0;
+}
+
+#btn1{
+    display: none
+}
+
+
+
+
+#takeawaydiv{
+    display: none;
+}
+
+
+
+
+
+/*====================================================*/
+
+
+
+
+
+
+footer {
+
+    background-color: #99742B;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+footer img {
+    width: 2rem;
+    margin: 15px 10px;
+}
+
+footer p {
+    color: #fdf4e0;
+    font-size: 1rem;
+}
+
+
+#topimg2{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:480px){
+    
+        #logo{
+        width: 35px
+    }
+    
+    #hamburger{
+        width: 30px
+    }
+    
+    
+    .bottombuttn{
+        width: 150px;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    
+    
+    
+ /*   ------------------------------------------*/
+    
+        #logo{
+        width: 45px;
+        margin-right: 200px
+        
+    }
+    
+    
+    
+    
+    .lanbtn2{
+        font-size: 1rem
+    }
+    
+    
+    .sushiheader{
+        margin-bottom: 20px
+    }
+    
+        #hamburgerbtn {
+        display: none;
+    }
+
+   
+
+    .lanbtn2 {
+        display: block;
+        padding: 10px;
+        margin-right: 50px;
+        color: #F3F3F3;
+    }
+
+    header {
+        align-items: center;
+    }
+    
+        .sushiheader:before {
+    height: 0
+}
+    
+ /*   ------------------------------------------*/
+
+    .line{
+        margin: 30px auto;
+    }
+    
+    
+    
+    .line2{
+    content: "";
+    background-color: rgba(90,90,90,0.7);
+    height: 0.1rem;
+    width: 90%;
+    margin: 30px auto
+}
+    
+    
+        .line3{
+    content: "";
+    background-color: rgba(90,90,90,0.7);
+    height: 0.1rem;
+    width: 90%;
+    margin: 80px auto
+}
+    
+    
+    
+    
+       .flexdiv{
+        display: flex;
+        flex-wrap: wrap;
+           
+    }
+
+    .takeimg{
+        width: 35%;
+        margin: auto;
+    }
+    
+    
+    .big{
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width:60%;
+}
+    
+    
+    .take{
+        margin-top: 100px;
+    }
+ 
+    
+    
+    
+    
+    /*定食=========================================================*/
+    
+    
+    #topimg{
+        display: none;
+    }
+    
+    #topimg2{
+        display: block;
+    }
+    
+    
+    
+    /*定食=========================================================*/
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:968px) {
+    
+        #logo {
+        margin-right: 500px
+    }
+    
+}

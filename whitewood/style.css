@@ -1,0 +1,66 @@
+#logo{
+    height: 1.8rem;
+}
+
+
+#header{
+    background-image: url(img/tree-woods_00157.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#slogan{
+    padding-top: 20vh
+}
+
+#headerbottom{
+    font-size: 1.1rem;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    margin: 6rem -1rem 0;
+    
+}/*header finish*/
+
+.cardimg{
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 15rem
+}
+
+
+#cardarea{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+footer{
+    background: rgba(0,0,0,0.6)
+}
+
+
+
+@media screen and (max-width:480px){
+    
+    #headerbottom{
+        font-size: 0.8rem;
+        padding: 0 1rem!important
+    }
+    
+    .card1{
+        display: flex!important;
+        flex-direction: column!important;
+        margin: 3rem 0!important;
+        text-align: center;
+        align-items: center
+    }
+    
+    footer div p{
+        font-size: 0.6rem
+    }
+    
+    #logo{
+    height: 1.2rem;
+}
+    
+}

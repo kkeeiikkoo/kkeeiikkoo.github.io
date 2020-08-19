@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Chef designer</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="takeaway.css">
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+    <link rel="icon" href="img/titleicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:site_name" content="Chef design" />
+    <meta property="og:url" content="kkeeiikkoo.github.io" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="Chef Design" />
+    <meta property="og:description" content="Design build our life. Find food better them." />
+    <meta property="og:image" content="https://kkeeiikkoo.github.io/img/designlifesushi.png" />
+
+
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'fel1mzj',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+    
+    
+<body>
+
+  
+        
+        
+    <header id="one">
+    <a href="indexjapanese.html"><button><img id="logo" src="img/logo.svg" alt="logo"></button></a>
+    <a href="setenglish.html"><button class="lanbtn2 en">English</button></a>
+
+    <a href="setjapanese.html"> <button class="lanbtn2 jp">日本語</button></a>
+
+    <a href="setchinese.html"><button class="lanbtn2 ch" href="chindex.html">中文</button></a>
+    <button id="hamburgerbtn"><img id="hamburger" src="img/hamburger.svg" onclick="toTop()"></button>
+
+</header>
+
+
+
+    <div class="overlay">
+
+        <button class="lanbtn"><img src="img/x.svg" id="x"></button>
+
+        <a href="setenglish.html"><button class="lanbtn en">English</button></a>
+
+        <a href="setjapanese.html"> <button class="lanbtn jp">日本語</button></a>
+
+        <a href="setchinese.html"><button class="lanbtn ch" href="chindex.html">中文</button></a>
+
+    </div>
+    
+    
+    
+    <img src="img/setmeal/set.jpg" class="big" id="topimg">
+    
+    
+    
+    <h1 id="takeawayontop">できたて屋</h1>
+    
+    
+ 
+    <p class="takep">一夜干しがメインの定食屋です。定食に汁物とお茶漬けがセットされています。一夜干しが塩で熟成させて、魚の旨味を最大限まで引き上げます。店内に自家製だし醤油もあります。だし醤油は一夜干しとの相性抜群で、一緒に食べると美味しいです。暖かくて、懐かしさを感じるのができたて屋で食事するときに感じられるものです。</p>
+
+    
+    <div class="flexdiv">
+    
+    <img src="img/setmeal/set.jpg" class="takeimg" id="topimg2">
+    
+    <img src="img/setmeal/setmealpic.png" class="takeimg">
+    
+    </div>
+    
+    
+    <h1 class="take">メニュー</h1>
+    
+    
+    <div class="line"></div>
+    
+    
+    <p class="takep">店の定番メニューです。ここで定食のセットを選べられます。定食セットに、刺身やざんぎなどのおかずを更にセットできます。一夜干しの単品もそのままに注文できます。一夜干し以外に、海鮮丼も人気があります。自分が作ったメニューは外国人向けのものですので、メニューは英語と中国語の二言語になります。<br><br><br>（画像をクリックすると拡大します）</p>
+    
+    
+    <div class="flexdiv">
+    <img src="img/setmeal/set1.jpg" id="en" class="takeimg" onclick="mouseon();" >
+    
+    <img src="img/setmeal/set2.jpg" id="en1" class="takeimg" onclick="mouseon1();">
+    </div>
+    
+    <div class="line3"></div>
+    
+    <div class="flexdiv">
+    <img src="img/setmeal/set3.jpg" id="en2" class="takeimg" onclick="mouseon2();">
+    
+    <img src="img/setmeal/set4.jpg" id="en3" class="takeimg" onclick="mouseon3();">
+    </div>
+    
+    <div class="line3"></div>
+    
+    <div class="flexdiv">
+    <img src="img/setmeal/set5.jpg" id="en4" class="takeimg" onclick="mouseon4();">
+
+        
+    <img src="img/setmeal/set6.jpg" id="en5" class="takeimg" onclick="mouseon5();">
+    </div>
+    
+    <h1 class="take">便當お持ち帰り</h1>
+    
+    <div class="line"></div>
+    
+    <p class="takep">お持ち帰りのお弁当があります。美味しい一夜干しを家でも楽しめます。お弁当に三種類あります。</p>
+    
+    
+    
+    <img src="img/setmeal/set7.jpg" id="en6" class="takeimg" onclick="mouseon6();">
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script type="text/javascript" src="main.js"></script>   
+    
+    
+    
+    
+    
+    
+    <script>
+        function mouseon0() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en0');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+
+
+
+
+
+        function mouseon() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+
+
+        function mouseon1() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en1');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+        function mouseon2() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en2');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+        function mouseon3() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en3');
+                change1.classList.add('big');
+
+            }
+
+        }
+        
+         function mouseon4() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en4');
+                change1.classList.add('big');
+
+            }
+
+        }       
+        
+        
+                 function mouseon5() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en5');
+                change1.classList.add('big');
+
+            }
+
+        }       
+        
+        
+                 function mouseon6() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en6');
+                change1.classList.add('big');
+
+            }
+
+        }       
+        
+        
+        
+        
+        
+    </script>
+        
+    
+    
+    
+    
+    <footer>
+        <img src="img/logo.svg">
+        <p>Copyright © 2020</p>
+    </footer>
+    
+    
+    
+    
+        
+        
+</body>
+</html>

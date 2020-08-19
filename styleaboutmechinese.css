@@ -1,0 +1,465 @@
+/*
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+*/
+
+body {
+
+    background-color: #F3F3F3;
+    z-index: -2;
+    box-sizing: border-box;
+    font-family: noto-sans-cjk-jp, sans-serif;
+    -webkit-appearance: none;  
+    -moz-appearance: none;    
+    appearance: none;
+
+}
+
+
+.lanbtn2{
+    display: none;
+}
+
+
+/*
+言語選擇*-------------------------------------------------------/
+*/
+
+#x {
+    margin: 10px auto 0px;
+    width: 20px;
+    z-index: 2;
+    -webkit-appearance: none;
+}
+
+
+.overlay {
+    display: none;
+    width: 60%;
+    height: 360vh;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: rgba(100, 70, 50, 1);
+    z-index: 2;
+}
+
+.lanbtn {
+    color: aliceblue;
+    z-index: 3;
+    font-size: 1.3em;
+    display: flex;
+    direction: column;
+    margin: 50px auto;
+    -webkit-appearance: none;
+
+}
+
+.en,
+.jp,
+.ch {
+    padding: 20px 80px;
+}
+
+
+.en:hover,
+.jp:hover,
+.ch:hover {
+    background-color: rgba(70, 50, 30, 0.3);
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+/*言語選擇====================================================
+
+
+
+
+/*
+header--------------------------------------------------------
+*/
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    font-size: 0.9rem;
+}
+
+
+
+
+#hamburger {
+    cursor: pointer;
+    width: 25px;
+    height: 30px;
+    margin: auto 20px;
+
+}
+
+
+#logo {
+
+    width: 40px;
+    padding: 10px 20px;
+}
+
+
+
+header {
+
+    background-color: rgba(120, 80, 40, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+/*
+header=========================================================================
+*/
+
+
+#aboutme{
+    
+    font-size: 2rem;
+    text-align: left;
+    padding: 120px 0 0px 30px;
+    margin: 0;
+    font-weight: 700
+}
+
+
+.line{
+    content: "";
+    background-color: rgba(90,90,90,0.7);
+    height: 0.1rem;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+#me{
+    display: block;
+    width: 70%;
+    margin: 40px auto;
+}
+
+
+
+#myself{
+        font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align: left;
+    margin: 20px 0 50px 30px;
+    color: rgba(90, 60, 30, 1);
+}
+
+
+
+
+
+/*
+--------------------------------------------------------------------
+*/
+
+
+.chef{
+   font-size: 1.6rem;
+    margin: 80px 0px 0px 30px;
+    color: rgba(120, 80, 30, 1);
+}
+
+.chefp {
+    margin: 30px 0 50px 30px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 85%;
+    color: rgba(90, 60, 30, 1)
+}
+
+
+.food{
+        display: block;
+    width: 70%;
+    margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+#snswrap {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-bottom: 30px
+}
+
+
+
+#instagram {
+    width: 18px;
+    margin: auto 0 auto 15px;
+}
+
+#instagramp {
+    margin: 10px
+}
+
+#instagramwrap {
+    display: flex;
+    justify-content: stretch;
+    border: 0.5px solid rgba(90, 90, 90, 1);
+    width: 120px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+#facebook {
+    width: 18px;
+    margin: auto 0 auto 15px;
+}
+
+#facebookp {
+    margin: 10px;
+}
+
+#facebookwrap {
+    display: flex;
+  justify-content: stretch;
+    border: 0.5px solid rgba(90, 90, 90, 1);
+    width: 120px;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #99742B;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+footer img {
+    width: 2rem;
+    margin: 15px 10px;
+}
+
+footer p {
+    color: #fdf4e0;
+    font-size: 1rem;
+}
+
+
+
+
+@media screen and (min-width:480px){
+    
+        #logo{
+        width: 35px
+    }
+    
+    #hamburger{
+        width: 30px
+    }
+
+
+    
+}
+
+
+
+
+
+@media screen and (min-width:700px) {
+    
+    
+    
+ /*   ------------------------------------------*/
+    
+        #logo{
+        width: 45px;
+        margin-right: 200px
+        
+    }
+    
+    
+    
+    
+    .lanbtn2{
+        font-size: 1rem
+    }
+    
+    
+    .sushiheader{
+        margin-bottom: 20px
+    }
+    
+        #hamburgerbtn {
+        display: none;
+    }
+
+   
+
+    .lanbtn2 {
+        display: block;
+        padding: 10px;
+        margin-right: 50px;
+        color: #F3F3F3;
+    }
+
+    header {
+        align-items: center;
+    }
+    
+        .sushiheader:before {
+    height: 0
+}
+    
+    
+    
+    
+     /*   ------------------------------------------*/
+    
+    .line{
+        margin: 50px auto;
+    } 
+    
+    #aboutme{
+        font-size: 2.5rem;
+        margin-bottom: -20px;
+    }
+
+
+.food{
+        display: block;
+    margin: 50px auto;
+}
+.food:last-child{
+        display: block;
+    margin-right: 10%;
+}
+
+
+
+    
+    
+        #me{
+    display: block;
+    width: 30%;
+    margin: 40px 70px;
+}
+    #myself{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 40%;
+        margin: 50px auto
+    }
+    
+    .food{
+        width: 40%;
+        margin: 40px;
+    }
+    
+    .foodwrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    
+}
+
+
+
+
+.sushibutton {
+    padding: 0px 10px;
+    background-color: rgb(120,80,40);
+    border-radius: 10px;
+    margin: 50px 30px 0 auto;
+    color: rgb(60, 60, 60);
+    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+.sushibutton:hover {
+    background-color: #A88219;
+    color: #fdf4e0;
+
+}
+
+
+.buttonsvg {
+    width: 0.5rem;
+    padding: 10px 0px;
+}
+
+.sushibuttontext {
+    margin: 0px;
+    padding: 10px 10px;
+    color: #fdf4e0    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:968px) {
+    
+    #logo{
+        margin-right: 500px
+    }
+    
+        #me{
+    display: block;
+    width: 20%;
+    margin-left: 150px
+}
+    .food{
+        width: 30%
+    }
+
+    
+
+}
+

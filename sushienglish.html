@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Chef designer</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="sushi.css">
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+    <link rel="icon" href="img/titleicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:site_name" content="Chef design" />
+    <meta property="og:url" content="kkeeiikkoo.github.io" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="Chef Design" />
+    <meta property="og:description" content="Design build our life. Find food better them." />
+    <meta property="og:image" content="https://kkeeiikkoo.github.io/img/designlifesushi.png" />
+
+
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'fel1mzj',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+    
+    
+<body>
+
+  
+        
+        
+    <header id="one">
+    <a href="indexenglish.html"><button><img id="logo" src="img/logo.svg" alt="logo"></button></a>
+    <a href="sushienglish.html"><button class="lanbtn2 en">English</button></a>
+
+    <a href="sushijapanese.html"> <button class="lanbtn2 jp">日本語</button></a>
+
+    <a href="sushichinese.html"><button class="lanbtn2 ch" href="chindex.html">中文</button></a>
+    <button id="hamburgerbtn"><img id="hamburger" src="img/hamburger.svg" onclick="toTop()"></button>
+
+</header>
+
+
+
+    <div class="overlay">
+
+        <button class="lanbtn"><img src="img/x.svg" id="x"></button>
+
+        <a href="sushienglish.html"><button class="lanbtn en">English</button></a>
+
+        <a href="sushijapanese.html"> <button class="lanbtn jp">日本語</button></a>
+
+        <a href="sushichinese.html"><button class="lanbtn ch" href="chindex.html">中文</button></a>
+
+    </div>
+    
+    
+    
+    <div class="flexdiv">
+    <img src="img/sushi/product_04.jpg" id="imgtop">
+    
+    
+    <div>
+    
+    <h1 id="toptext">Popular dishes</h1>
+   
+    <p class="textp">There are many type of food in Nemuro Hanamaru. people who come here frist time are not really know which one they should order. Here I'd like to recommended some popular food.</p>
+    
+    </div>
+    </div>
+    
+    
+    
+    <div class="bottondiv">
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn1" onclick="click1()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">Nigiri sushi</p>
+            </button>
+    </div>
+    
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn2" onclick="click2()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">Gunkan & Sushi roll</p>
+            </button>
+    </div>
+
+
+    <div class="sushiwrap">
+            <button class="sushibutton"  id="btn3" onclick="click3()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">A la carte</p>
+            </button>
+    </div>
+    </div>
+    
+   <!-- 1111111111111111111111111111111111111111111111111111111111111-->
+    
+    
+    <div id="sushiwrap1">
+        
+        
+        <h1 class="populartitle">Nigiri sushi</h1>
+        
+        <p class="textp">In Nemuro Hanamaru, only the fresh fish be used. It's also the secret why the sushi in Nemuro Hanamaru is good.</p>
+        
+   
+        
+        <div class="flexdiv">
+            <div>
+
+                <h2>Salmon</h2>
+                <p class="textp">Very popular sushi around world.</p>
+            </div>
+
+
+            <img src="img/sushi/salmon.jpg" class="takeimg">
+
+        </div>
+
+
+        <div class="flexdiv">
+            <div>
+
+                <h2>Tuna</h2>
+                <p class="textp">The famous sushi in japan. Many people like tuna because of the flavor.</p>
+            </div>
+            <img src="img/sushi/toro.jpg" class="takeimg">
+        </div>
+        
+        
+        <div class="flexdiv">
+            <div>
+
+        <h2>Scallop</h2>
+        <p class="textp">The sushi made by scallop. Very popular item, and many people like this.</p>
+            </div>
+        <img src="img/sushi/scallop.jpg" class="takeimg">
+        </div>
+        
+        
+        
+        
+        <div class="line"></div><br>
+        
+        
+        
+         <h1 class="populartitle">Seared sushi</h1>
+        
+        <p class="textp">Using the fire to seared the sushi. Make the sushi be much delicious.<br><br>By seared process, the home-made soysauce with release tons of flavor into sushi. Make sushi different.</p>
+        
+        
+        
+          <div class="flexdiv">
+            
+        <img src="img/sushi/seared%20salmon.jpg" class="takeimg">
+        <div>
+        <h2>Seared salmon</h2>
+        <p class="textp">The salmon with home-made soysauce. The best seared sushi in Nemuro Hanamaru.</p>
+              </div>
+        </div>
+              
+              <div class="flexdiv">
+        <img src="img/sushi/roasteel.jpg" class="takeimg">
+        <div>
+        <h2>Roasteel</h2>
+        <p class="textp">Traditional japanese sushi. Very delicious.</p>
+                  </div>
+        </div>
+    </div>
+    
+    
+    
+    
+<!--    2222222222222222222222222222222222222222222222222222222222222222222222222-->
+    
+    
+    <div id="sushiwrap2">
+        
+        <h1 class="populartitle2">Sushi roll</h1>
+        
+        <p class="textp">Sushi rolled by seaweed and cut into appropriate size.</p>
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/ebitenmaki.JPG" class="takeimg">
+        <div>
+        <h2>Shrimp tempura roll</h2>
+        <p class="textp">The sushi roll with shrimp tempura. Very popular type of sushi roll.</p>
+            </div>
+        </div>
+            
+            
+            
+            <div class="flexdiv">
+        <img src="img/sushi/tekamaki.JPG" class="takeimg">
+        <div>
+        <h2>Tuna roll</h2>
+        <p class="textp">The sushi roll with tuna.</p>
+                </div>
+        </div>
+        
+        
+        <div class="line"></div><br>
+        
+        
+        
+         <h1 class="populartitle2">Gunkan sushi</h1>
+        
+        <p class="textp">Also a rolled sushi, but the seaweed is much more smaller than sushiroll. look like battle ship so be named "gunkan", which mean battle ship in japanese.</p>
+        
+        
+        
+                       <div class="flexdiv">
+        <img src="img/sushi/ebimayo.JPG" class="takeimg">
+<div>            
+        
+        <h2>Shrimo mayonnaise</h2>
+        <p class="textp">Shrimp with mayonnaise. Very popular by children.</p>
+        </div>
+        </div>
+        
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/negitoro.JPG" class="takeimg">
+        <div>
+        <h2>Minced tuna green onion</h2>
+        <p class="textp">The sushi made by minced tuna and green onion.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+ <!--   33333333333333333333333333333333333333333333333333333333333333333333333333333-->
+    
+    <div id="sushiwrap3">
+
+
+        <h1 class="populartitle3">A la carte</h1>
+
+        <p class="textp">Besides sushi, there are many different type of dish in Nemuro Hanamaru.</p>
+
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/steamegg.jpg" class="takeimg">
+<div>
+        <h2>Savory egg custard</h2>
+        <p class="textp">Traditional japanese steaming egg. Very popular item in Nemuro Hanamaru.</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/fried.jpg" class="takeimg">
+<div>
+        <h2>Fried chicken</h2>
+        <p class="textp">Japanese style fried chicken.</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/crabmisosoup.jpg" class="takeimg">
+<div>
+        <h2>Crab miso soup</h2>
+        <p class="textp">The best and very popular soup in Nemuro Hanamaru. We using tons of crab to make the soup. Not just the flover of miso but also crab. The best soup in our restaurant.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    
+    
+
+    <script>
+        
+        function click1(){
+        document.getElementById("sushiwrap1").style.display="block";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click2(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="block";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click3(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="block";
+        }
+        
+
+
+    </script>
+    
+    
+    
+    
+    <div class="line"></div>
+    
+    <footer>
+        <img src="img/logo.svg">
+        <p>Copyright © 2020</p>
+    </footer>
+    
+    
+    
+    
+     <script type="text/javascript" src="main.js"></script>   
+        
+</body>
+</html>

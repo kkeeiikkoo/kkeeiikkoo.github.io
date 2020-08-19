@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Chef designer</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="sushi.css">
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+    <link rel="icon" href="img/titleicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:site_name" content="Chef design" />
+    <meta property="og:url" content="kkeeiikkoo.github.io" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="Chef Design" />
+    <meta property="og:description" content="Design build our life. Find food better them." />
+    <meta property="og:image" content="https://kkeeiikkoo.github.io/img/designlifesushi.png" />
+
+
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'fel1mzj',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+    
+    
+<body>
+
+  
+        
+        
+    <header id="one">
+    <a href="indexjapanese.html"><button><img id="logo" src="img/logo.svg" alt="logo"></button></a>
+    <a href="sushienglish.html"><button class="lanbtn2 en">English</button></a>
+
+    <a href="sushijapanese.html"> <button class="lanbtn2 jp">日本語</button></a>
+
+    <a href="sushichinese.html"><button class="lanbtn2 ch" href="chindex.html">中文</button></a>
+    <button id="hamburgerbtn"><img id="hamburger" src="img/hamburger.svg" onclick="toTop()"></button>
+
+</header>
+
+
+
+    <div class="overlay">
+
+        <button class="lanbtn"><img src="img/x.svg" id="x"></button>
+
+        <a href="sushienglish.html"><button class="lanbtn en">English</button></a>
+
+        <a href="sushijapanese.html"> <button class="lanbtn jp">日本語</button></a>
+
+        <a href="sushichinese.html"><button class="lanbtn ch" href="chindex.html">中文</button></a>
+
+    </div>
+    
+    
+    
+    <div class="flexdiv">
+    <img src="img/sushi/product_04.jpg" id="imgtop">
+    
+    
+    <div>
+    
+    <h1 id="toptext">人気商品</h1>
+   
+    <p class="textp">はなまるに料理の種類がたくさんあります。そこで、初めて来た人は大体何を注文すればいいかわからないです。ここでいくつのおすすめ商品を紹介します。</p>
+    
+    </div>
+    </div>
+    
+    
+    
+    <div class="bottondiv">
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn1" onclick="click1()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">人気握り寿司</p>
+            </button>
+    </div>
+    
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn2" onclick="click2()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">軍艦&巻き寿司</p>
+            </button>
+    </div>
+
+
+    <div class="sushiwrap">
+            <button class="sushibutton"  id="btn3" onclick="click3()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">単品料理</p>
+            </button>
+    </div>
+    </div>
+    
+   <!-- 1111111111111111111111111111111111111111111111111111111111111-->
+    
+    
+    <div id="sushiwrap1">
+        
+        
+        <h1 class="populartitle">握寿司</h1>
+        
+        <p class="textp">はなまるの寿司にネタの鮮度が一番重視です。すべてのネタは一番良い状態で寿司に作られます。同じ魚にでも、はなまるの寿司が美味しい理由はこれです。寿司のネタも適切な大きさに切ります。寿司しゃりの酸味とバランスよく取れます。これで寿司を美味しく感じます。</p>
+        
+   
+        
+        <div class="flexdiv">
+            <div>
+
+                <h2>サーモン</h2>
+                <p class="textp">人気商品。サーモンが脂が乗っている魚です。食べると、柔らかい身が口の中に崩れて、サーモンの旨味をこのまま感じれます。日本だけでなく、全世界に愛されている寿司です。</p>
+            </div>
+
+
+            <img src="img/sushi/salmon.jpg" class="takeimg">
+
+        </div>
+
+
+        <div class="flexdiv">
+            <div>
+
+                <h2>本マグロ</h2>
+                <p class="textp">寿司と言えば本マグロです。脂が乗り、旨味を強く感じれます。寿司の中には高級品です。刺身だけでも美味しいです。</p>
+            </div>
+            <img src="img/sushi/toro.jpg" class="takeimg">
+        </div>
+        
+        
+        <div class="flexdiv">
+            <div>
+
+        <h2>ホタテ</h2>
+        <p class="textp">品質が高いホタテを使って、贅沢な寿司である。寿司屋ではすごく人気な寿司です。柔らかいホタテを食べると、貝類特有な甘みを感じれます。</p>
+            </div>
+        <img src="img/sushi/scallop.jpg" class="takeimg">
+        </div>
+        
+        
+        
+        
+        <div class="line"></div><br>
+        
+        
+        
+         <h1 class="populartitle">あぶり寿司</h1>
+        
+        <p class="textp">寿司を炙ることにより、ネタの旨味を最大限まで引き上げ、究極の美味をできます。寿司を炙る前にネタに焦がし醤油を塗って、そして炎で軽く炙り、焦がし醤油の香ばしさとネタの旨味が合わせて、一番美味しい寿司になります。</p>
+        
+        
+        
+          <div class="flexdiv">
+            
+        <img src="img/sushi/seared%20salmon.jpg" class="takeimg">
+        <div>
+        <h2>炙りトロサーモン</h2>
+        <p class="textp">炙りサーモンは炙り寿司の中にも代表的なものです。サーモンは脂が乗っているネタです。炙ったら、その旨味が更に引き上げられます。焦がし醤油を塗ることにより、サーモンに醤油の旨味に合わせ、味に深みをできます。</p>
+              </div>
+        </div>
+              
+              <div class="flexdiv">
+        <img src="img/sushi/roasteel.jpg" class="takeimg">
+        <div>
+        <h2>うなぎ</h2>
+        <p class="textp">日本を代表できる魚料理と言えばうなぎです。蒲焼うなぎは日本の伝統的な美味しい料理です。うなぎに甘たれを塗り、寿司にうなぎの旨味と甘さを感じます。</p>
+                  </div>
+        </div>
+    </div>
+    
+    
+    
+    
+<!--    2222222222222222222222222222222222222222222222222222222222222222222222222-->
+    
+    
+        <div id="sushiwrap2">
+        <h1 class="populartitle2">巻き寿司</h1>
+
+        <p class="textp">のりで巻いた寿司です。定番の寿司タイプです。のりで巻いたものですので、握り寿司よりはしゃりが崩れにくいです。子供にも人気がある寿司タイプです。</p>
+
+
+        <div class="flexdiv">
+            <img src="img/sushi/ebitenmaki.JPG" class="takeimg">
+            <div>
+                <h2>海老天巻</h2>
+                <p class="textp">エビの天ぷらをのりで巻いた寿司です。海外にも人気があります。サクサクしたエビの天ぷらと寿司シャリとのバランスが良くて、美味しいです。</p>
+            </div>
+        </div>
+
+
+
+        <div class="flexdiv">
+            <img src="img/sushi/tekamaki.JPG" class="takeimg">
+            <div>
+                <h2>鉄火巻</h2>
+                <p class="textp">マグロをのりで巻いた寿司です。黒い海苔に赤いまぐろの身で、鉄火巻この名前の由来です。まぐろの旨味を感じれるので、人気がある寿司です。</p>
+            </div>
+        </div>
+
+
+        <div class="line"></div><br>
+
+
+
+        <h1 class="populartitle2">軍艦</h1>
+
+        <p class="textp">違うタイプの巻き寿司、形が軍艦と似ているので、軍艦寿司の呼ばれています。</p>
+
+
+
+        <div class="flexdiv">
+            <img src="img/sushi/ebimayo.JPG" class="takeimg">
+            <div>
+
+                <h2>えびまよ</h2>
+                <p class="textp">えびとマヨネーズで作った寿司です。えびが甘くて、マヨネーズとの相性が良かったです。魚のお寿司より違う食感で、おすすめの一品です。</p>
+            </div>
+        </div>
+
+
+
+        <div class="flexdiv">
+            <img src="img/sushi/negitoro.JPG" class="takeimg">
+            <div>
+                <h2>ねぎとろ</h2>
+                <p class="textp">鮪たたきとねぎを使った軍艦寿司です。まぐろをたたきにして、口の中に溶けて、まぐろの旨味をより感じれます。</p>
+            </div>
+        </div>
+        </div>
+    
+    
+    
+    
+    
+    
+ <!--   33333333333333333333333333333333333333333333333333333333333333333333333333333-->
+    
+    <div id="sushiwrap3">
+
+
+        <h1 class="populartitle3">一品料理</h1>
+
+        <p class="textp">寿司以外に、はなまるに単品料理も提供しています。単品料理は種類が多くて、汁物、揚物、あるいは和食の定番である茶碗蒸しまで用意されております。</p>
+
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/steamegg.jpg" class="takeimg">
+<div>
+        <h2>茶碗蒸し</h2>
+        <p class="textp">和食の定番料理。茶碗蒸しが人気な一品料理です。寿司を召し上がっているときに、暖かい茶碗蒸しがなければ、もの足りないと感じます。</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/fried.jpg" class="takeimg">
+<div>
+        <h2>ざんぎ</h2>
+        <p class="textp">北海道風の鶏の唐揚げです。揚げた鶏肉が美味しいです。お酒との相性も良かったです。</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/crabmisosoup.jpg" class="takeimg">
+<div>
+        <h2>花咲蟹の鉄砲汁</h2>
+        <p class="textp">花まるの人気汁物。白味噌にたっぷりと花咲蟹を入れて、長時間かけて煮込んで、味噌汁に花咲蟹の旨味が満タン、香り立って、味覚に新しい衝撃を与えられる幻の一品です。</p>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    
+    
+
+    <script>
+        
+        function click1(){
+        document.getElementById("sushiwrap1").style.display="block";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click2(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="block";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click3(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="block";
+        }
+        
+
+
+    </script>
+    
+    
+    
+    
+    <div class="line"></div>
+    
+    <footer>
+        <img src="img/logo.svg">
+        <p>Copyright © 2020</p>
+    </footer>
+    
+    
+    
+    
+     <script type="text/javascript" src="main.js"></script>   
+        
+</body>
+</html>

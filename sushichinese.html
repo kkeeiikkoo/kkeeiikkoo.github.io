@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Chef designer</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="sushi.css">
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+    <link rel="icon" href="img/titleicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:site_name" content="Chef design" />
+    <meta property="og:url" content="kkeeiikkoo.github.io" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="Chef Design" />
+    <meta property="og:description" content="Design build our life. Find food better them." />
+    <meta property="og:image" content="https://kkeeiikkoo.github.io/img/designlifesushi.png" />
+
+
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'fel1mzj',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+    
+    
+<body>
+
+  
+        
+        
+    <header id="one">
+    <a href="index.html"><button><img id="logo" src="img/logo.svg" alt="logo"></button></a>
+    <a href="sushienglish.html"><button class="lanbtn2 en">English</button></a>
+
+    <a href="sushijapanese.html"> <button class="lanbtn2 jp">日本語</button></a>
+
+    <a href="sushichinese.html"><button class="lanbtn2 ch" href="chindex.html">中文</button></a>
+    <button id="hamburgerbtn"><img id="hamburger" src="img/hamburger.svg" onclick="toTop()"></button>
+
+</header>
+
+
+
+    <div class="overlay">
+
+        <button class="lanbtn"><img src="img/x.svg" id="x"></button>
+
+        <a href="sushienglish.html"><button class="lanbtn en">English</button></a>
+
+        <a href="sushijapanese.html"> <button class="lanbtn jp">日本語</button></a>
+
+        <a href="sushichinese.html"><button class="lanbtn ch" href="chindex.html">中文</button></a>
+
+    </div>
+    
+    
+    
+    <div class="flexdiv">
+    <img src="img/sushi/product_04.jpg" id="imgtop">
+    
+    
+    <div>
+    
+    <h1 id="toptext">人氣商品</h1>
+   
+    <p class="textp">根室花丸有許多不同商品，第一次來往往不知所措。這裡介紹根室花丸的商品種類，並推薦幾項特別的商品。</p>
+    
+    </div>
+    </div>
+    
+    
+    
+    <div class="bottondiv">
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn1" onclick="click1()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">人氣握壽司</p>
+            </button>
+    </div>
+    
+    <div class="sushiwrap">
+            <button class="sushibutton" id="btn2" onclick="click2()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">軍艦&壽司卷</p>
+            </button>
+    </div>
+
+
+    <div class="sushiwrap">
+            <button class="sushibutton"  id="btn3" onclick="click3()">
+                <img src="img/sushi/button1.svg" class="buttonsvg">
+                <p class="sushibuttontext">單品料理</p>
+            </button>
+    </div>
+    </div>
+    
+   <!-- 1111111111111111111111111111111111111111111111111111111111111-->
+    
+    
+    <div id="sushiwrap1">
+        
+        
+        <h1 class="populartitle">握壽司</h1>
+        
+        <p class="textp">根室花丸的壽司強調新鮮，所有的生魚片都是在最新鮮最完美的情況下被捏成壽司。<br><br>同樣的魚種，在根室花丸所能享用的會比其他壽司店美味的原因就是在此。</p>
+        
+   
+        
+        <div class="flexdiv">
+            <div>
+
+                <h2>鮭魚握壽司</h2>
+                <p class="textp">經典握壽司，受到很多人的歡迎。帶有油脂的魚肉以及其特殊的鮮甜，是讓很多人無法抗拒的理由。</p>
+            </div>
+
+
+            <img src="img/sushi/salmon.jpg" class="takeimg">
+
+        </div>
+
+
+        <div class="flexdiv">
+            <div>
+
+                <h2>黑鮪魚握壽司</h2>
+                <p class="textp">經典握壽司。是高價握壽司的代表。經典且美味，是握壽司的代表之一。</p>
+            </div>
+            <img src="img/sushi/toro.jpg" class="takeimg">
+        </div>
+        
+        
+        <div class="flexdiv">
+            <div>
+
+        <h2>生干貝握壽司</h2>
+        <p class="textp">用高價生干貝捏成的壽司。鮮嫩軟滑，是極受歡迎的壽司品項。</p>
+            </div>
+        <img src="img/sushi/scallop.jpg" class="takeimg">
+        </div>
+        
+        
+        
+        
+        <div class="line"></div><br>
+        
+        
+        
+         <h1 class="populartitle">炙燒壽司</h1>
+        
+        <p class="textp">經由烈火的炙燒，最大限度提升壽司的香氣和生魚的鮮味，成就極致的美味。<br><br>根室花丸的招牌炙燒壽司，利用特製焦香醬油經由大火的炙燒，釋放出其中的鮮香與魚肉完美融合。將炙燒壽司昇華至完全不同的層次。</p>
+        
+        
+        
+          <div class="flexdiv">
+            
+        <img src="img/sushi/seared%20salmon.jpg" class="takeimg">
+        <div>
+        <h2>炙燒鮭魚握壽司</h2>
+        <p class="textp">炙燒過的鮭魚握壽司，其鮮甜鹹香使其成為能夠代表根室花丸的炙燒代表作之一。</p>
+              </div>
+        </div>
+              
+              <div class="flexdiv">
+        <img src="img/sushi/roasteel.jpg" class="takeimg">
+        <div>
+        <h2>蒲燒鰻魚握壽司</h2>
+        <p class="textp">傳統日本美味，是能夠代表日本的經典料理。</p>
+                  </div>
+        </div>
+    </div>
+    
+    
+    
+    
+<!--    2222222222222222222222222222222222222222222222222222222222222222222222222-->
+    
+    
+    <div id="sushiwrap2">
+        
+        <h1 class="populartitle2">壽司卷</h1>
+        
+        <p class="textp">經典的壽司類型。用海苔將魚肉或是蝦子等捲起，再切成適當的大小。</p>
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/ebitenmaki.JPG" class="takeimg">
+        <div>
+        <h2>炸蝦壽司卷</h2>
+        <p class="textp">將炸蝦用海苔與壽司米捲起製成的壽司。</p>
+            </div>
+        </div>
+            
+            
+            
+            <div class="flexdiv">
+        <img src="img/sushi/tekamaki.JPG" class="takeimg">
+        <div>
+        <h2>鮪魚壽司卷</h2>
+        <p class="textp">將鮪魚用海苔和壽司米捲起製成的壽司。</p>
+                </div>
+        </div>
+        
+        
+        <div class="line"></div><br>
+        
+        
+        
+         <h1 class="populartitle2">軍艦壽司</h1>
+        
+        <p class="textp">類似壽司卷，不過所使用的海苔遠為粗短。所製成的壽司狀似軍艦，故稱為軍艦壽司。</p>
+        
+        
+        
+                       <div class="flexdiv">
+        <img src="img/sushi/ebimayo.JPG" class="takeimg">
+<div>            
+        
+        <h2>鮮蝦美奶滋</h2>
+        <p class="textp">盛上鮮蝦美奶滋的壽司，很受小朋友的歡迎。</p>
+        </div>
+        </div>
+        
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/negitoro.JPG" class="takeimg">
+        <div>
+        <h2>鮪魚鮮蔥</h2>
+        <p class="textp">盛上鮪魚肉末的壽司，可以吃出鮪魚的鮮甜。</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+ <!--   33333333333333333333333333333333333333333333333333333333333333333333333333333-->
+    
+    <div id="sushiwrap3">
+
+
+        <h1 class="populartitle3">單品料理</h1>
+
+        <p class="textp">除了壽司之外，根室花丸也提供許多不同品項的料理。如湯品，炸物等。當中許多是相當受到歡迎的品項，許多人專程前來享用。</p>
+
+        
+        
+        <div class="flexdiv">
+        <img src="img/sushi/steamegg.jpg" class="takeimg">
+<div>
+        <h2>茶碗蒸</h2>
+        <p class="textp">日式傳統蒸蛋。相當美味的料理。在根室花丸也是很多人指名一定要品嚐的品項。</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/fried.jpg" class="takeimg">
+<div>
+        <h2>日式炸雞塊</h2>
+        <p class="textp">和風炸雞塊。油炸之前經過醃製，鮮味十足的料理。</p>
+            </div>
+        </div>
+
+        <div class="line"></div><br>
+
+        
+        <div class="flexdiv">
+        <img src="img/sushi/crabmisosoup.jpg" class="takeimg">
+<div>
+        <h2>螃蟹味噌湯</h2>
+        <p class="textp">根室花丸最為經典的湯品，味噌獨特的氣味與螃蟹的鮮甜融合的恰到好處。每一口都是味覺的嶄新體驗。</p>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    
+    
+
+    <script>
+        
+        function click1(){
+        document.getElementById("sushiwrap1").style.display="block";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click2(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="block";
+        document.getElementById("sushiwrap3").style.display="none";
+        }
+
+        function click3(){
+        document.getElementById("sushiwrap1").style.display="none";
+        document.getElementById("sushiwrap2").style.display="none";
+        document.getElementById("sushiwrap3").style.display="block";
+        }
+        
+
+
+    </script>
+    
+    
+    
+    
+    <div class="line"></div>
+    
+    <footer>
+        <img src="img/logo.svg">
+        <p>Copyright © 2020</p>
+    </footer>
+    
+    
+    
+    
+     <script type="text/javascript" src="main.js"></script>   
+        
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Chef designer</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="takeaway.css">
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+    <link rel="icon" href="img/titleicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:site_name" content="Chef design" />
+    <meta property="og:url" content="kkeeiikkoo.github.io" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:title" content="Chef Design" />
+    <meta property="og:description" content="Design build our life. Find food better them." />
+    <meta property="og:image" content="https://kkeeiikkoo.github.io/img/designlifesushi.png" />
+
+
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'fel1mzj',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+    
+    
+<body>
+
+  
+        
+        
+    <header id="one">
+    <a href="indexenglish.html"><button><img id="logo" src="img/logo.svg" alt="logo"></button></a>
+    <a href="menuenglish.html"><button class="lanbtn2 en">English</button></a>
+
+    <a href="menujapanese.html"> <button class="lanbtn2 jp">日本語</button></a>
+
+    <a href="menuchinese.html"><button class="lanbtn2 ch" href="chindex.html">中文</button></a>
+    <button id="hamburgerbtn"><img id="hamburger" src="img/hamburger.svg" onclick="toTop()"></button>
+
+</header>
+
+
+
+    <div class="overlay">
+
+        <button class="lanbtn"><img src="img/x.svg" id="x"></button>
+
+        <a href="menuenglish.html"><button class="lanbtn en">English</button></a>
+
+        <a href="menujapanese.html"> <button class="lanbtn jp">日本語</button></a>
+
+        <a href="menuchinese.html"><button class="lanbtn ch" href="chindex.html">中文</button></a>
+
+    </div>
+    
+    
+    <!--
+    <img src="img/entrance.jpg" class="big" id="topbig">
+    -->
+    
+    
+    
+
+    
+    
+    <div id="menudiv">
+
+
+        <h1 id="takeawayontop">Kaiten Sushi</h1>
+
+
+        <p class="takep">The price of sushi is depanding on the color of plates. Take the sushi from the belt or take the order of sushi, you will get the plate. When you check the bill, the price of meal is decided by how many plates you have and what color are of plates.<br><br>If you want to take the order of sushi, you can write the number of sushi on the sheet, then give it the chef. if you need wasabi, you can also ask chef for wasabi.<br><br><br>(Click picture to enlarge)</p>
+
+
+
+
+
+        <img src="img/menu/howtoeat.jpg" class="takeimg" id="en0" onclick="mouseon0();">
+
+
+
+
+
+
+
+        <h1 class="take">Menu (Chinese ver.)</h1>
+
+
+        <div class="line"></div>
+
+
+        <p class="takep">The menu in chinese. besides sushi it also have many different of food. Every dish has the number, if you need order, please just write down the number on the sheet.</p>
+
+
+        <div class="flexdiv">
+
+            <img src="img/menu/chinese1.jpg" id="en" class="takeimg" onclick="mouseon();">
+
+            <img src="img/menu/chinese2.jpg" id="en1" class="takeimg" onclick="mouseon1();">
+
+        </div>
+
+
+
+
+        <h1 class="take">Menu (English ver.)</h1>
+
+        <div class="line"></div>
+
+        <p class="takep">The menu in English. besides sushi it also have many different of food. Every dish has the number, if you need order, please just write down the number on the sheet.</p>
+
+        <div class="flexdiv">
+
+            <img src="img/menu/english1.jpg" id="en2" class="takeimg" onclick="mouseon2();">
+
+            <img src="img/menu/english2.jpg" id="en3" class="takeimg" onclick="mouseon3();">
+
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div id="takeawaydiv">
+    
+    
+     <h1 class="takeawayontop">Sushi take away</h1>
+    
+    
+   
+    
+    
+    <p class="takep">We provide the take away option. You can choose the sushi you want from menu, or you can also choose the sushi set. Even you have the sushi in our sushi bar, you can also take away the sushi you order.<br><br><br>(Click picture to enlarge)</p>
+    <div class="flexdiv">
+    <img src="img/takeaway/entakeaway.jpg" id="en4" class="takeimg" onclick="mouseon4();" >
+    
+    <img src="img/takeaway/entakeaway2.jpg" id="en5" class="takeimg" onclick="mouseon5();">
+        </div>
+    
+    <div class="line"></div>
+    
+    <p class="takep">Take away menu in japanese, the content is the same.</p>
+    
+    <div class="flexdiv">
+    <img src="img/takeaway/takeaway.jpg" id="en6" class="takeimg" onclick="mouseon6();">
+    
+    <img src="img/takeaway/takeaway2.jpg" id="en7" class="takeimg" onclick="mouseon7();">
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="line"></div>
+
+
+    
+        <button class="bottombutton" id="btn1" onclick="click1()">
+            <p>Restaurant menu</p><img src="img/buttonwhite.svg" class="buttonsvg">
+        </button>
+
+
+
+
+        <button class="bottombutton" id="btn2" onclick="click2()">
+            <p>Take away menu</p><img src="img/buttonwhite.svg" class="buttonsvg">
+        </button>
+        
+    
+    <div class="line2"></div>
+    
+
+    
+    
+    
+    
+    
+    
+<script type="text/javascript" src="main.js"></script>   
+    
+    
+    
+    
+    
+    
+    <script>
+        
+        function click2(){
+        document.getElementById("btn1").style.display="flex";
+        document.getElementById("btn2").style.display="none";
+        document.getElementById("takeawaydiv").style.display="block";
+        document.getElementById("menudiv").style.display="none"; 
+            toTop();
+        }
+        
+        function click1(){
+        document.getElementById("btn1").style.display="none";
+        document.getElementById("btn2").style.display="flex";
+            document.getElementById("takeawaydiv").style.display="none";
+        document.getElementById("menudiv").style.display="block";
+            toTop()
+        }
+        
+        
+        
+        
+        function mouseon0() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en0');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+
+
+
+
+
+        function mouseon() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+
+
+        function mouseon1() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en1');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+        function mouseon2() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en2');
+                change1.classList.add('big');
+
+            }
+
+        }
+
+
+        function mouseon3() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en3');
+                change1.classList.add('big');
+
+            }
+
+        }
+        
+         function mouseon4() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en4');
+                change1.classList.add('big');
+
+            }
+
+        }       
+        
+        
+        function mouseon5() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en5');
+                change1.classList.add('big');
+
+            }
+            
+        }
+            
+                    function mouseon6() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en6');
+                change1.classList.add('big');
+
+            }
+                    }
+                        
+                        
+                        
+                                function mouseon7() {
+            var change1 = document.getElementsByClassName('big')[0];
+            if (change1) {
+                var change1 = document.getElementsByClassName('big')[0];
+                change1.classList.remove('big');
+
+
+
+            } else {
+                var change1 = document.getElementById('en7');
+                change1.classList.add('big');
+
+            }
+
+        }    
+        
+                    
+    </script>
+        
+    
+    
+    
+    
+    <footer>
+        <img src="img/logo.svg">
+        <p>Copyright © 2020</p>
+    </footer>
+    
+    
+    
+    
+        
+        
+</body>
+</html>
